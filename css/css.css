@@ -38,6 +38,7 @@ header {
 
 header > h1 {
     text-align: center;
+    font-size: 36px;
 }
 
 nav {
@@ -64,10 +65,12 @@ nav a {
     font-weight: bold;
     display: block;
     border: 1px solid #407eaf;
+    font-size: 22px;
 }
 
 nav a:hover {
     text-decoration: none;
+    font-size: 22px;
     background-color: #407eafcb;
     color: whitesmoke;
     padding: 16px 20px;
@@ -79,7 +82,7 @@ nav a:hover {
 
 section {
     display: block;
-    background-color: #5840afcb;
+    background-color: #5840af;
     color: white;
     width: 80%;
     padding: 40px;
@@ -87,6 +90,18 @@ section {
     margin-right: auto;
     border-radius: 30px;
     font-family: atk;
+}
+
+section a {
+    color: #ffe468;
+}
+
+section h2 {
+    font-size: 36px;
+}
+
+section p {
+    font-size: 22px;
 }
 
 
