@@ -12,17 +12,22 @@
     src: url("ttf/KodeMono.ttf");
 }
 
-.colores_python {
+@font-face {
+    font-family: opensans;
+    src: url("ttf/OpenSans.ttf");
+}
+
+/* .colores_python {
     background-color: #407eaf;
     background-color: #ffe468;
-}
+} */
 
 
 html {
     color: white;
     background-image: url("../img/bg.png");
     background-repeat: no-repeat;
-    font-family: atk;
+    font-family: opensans;
     background-size: cover;
 }
 
@@ -82,18 +87,19 @@ nav a:hover {
 
 section {
     display: block;
-    background-color: #5840af;
+    font-family: opensans;
     color: white;
+    background-color: #5840afcb;
     width: 80%;
     padding: 40px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
-    font-family: atk;
 }
 
 section a {
-    color: #ffe468;
+    color: #ffdf4d;
+    font-weight: bold;
 }
 
 section h2 {
@@ -104,6 +110,11 @@ section p {
     font-size: 22px;
 }
 
+section code {
+    font-family: kodemono;
+    background-color: black;
+    
+}
 
 
 
@@ -122,6 +133,7 @@ footer {
     text-align: right;
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     border-top: 4px solid #ffe468;
     color:#ffe468;
