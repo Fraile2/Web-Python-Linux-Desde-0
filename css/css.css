@@ -20,10 +20,84 @@
 
 html {
     color: white;
-    background-color: #407eaf;
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    font-family: atk;
+    background-size: cover;
 }
 
 header {
-    background-color: #5840af;
-    padding: 10px;
+    background-color: #5840afcb;
+    padding: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+nav > ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+
+nav li {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #ffe468cb;
+    color: black;
+    padding: 16px 20px;
+    font-weight: bold;
+    display: block;
+    border: 1px solid #407eaf;
+}
+
+nav a:hover {
+    text-decoration: none;
+    background-color: #407eafcb;
+    color: whitesmoke;
+    padding: 16px 20px;
+    font-weight: bold;
+    display: block;
+    border: 1px solid #ffe468;
+    transition: all linear 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    font-family: kodemono;
+    background-color: black;
+    padding: 20px;
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 4px solid #ffe468;
+    color:#ffe468;
 }
