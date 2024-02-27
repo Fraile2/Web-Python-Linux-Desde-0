@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: atk;
+    src: url("ttf/Atkinson-Hyperlegible.otf");
+}
+
+@font-face {
+    font-family: kodemono;
+    src: url("ttf/KodeMono.ttf");
+}
+
+.colores_python {
+    background-color: #407eaf;
+    background-color: #ffe468;
+}
+
+
+html {
+    color: white;
+    background-color: #407eaf;
+}
+
+header {
+    background-color: #5840af;
+    padding: 10px;
+}
