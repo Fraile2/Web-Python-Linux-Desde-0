@@ -25,14 +25,14 @@
 
 html {
     color: white;
-    background-image: url("../img/bg.png");
+    background-color: black;
     background-repeat: no-repeat;
     font-family: opensans;
     background-size: cover;
 }
 
 header {
-    background-color: #5840afcb;
+    background-color: #5840afbb;
     padding: 30px;
     display: flex;
     flex-flow: row nowrap;
@@ -90,7 +90,7 @@ section {
     display: block;
     font-family: opensans;
     color: white;
-    background-color: #5840afcb;
+    background-color: #5840afbb;
     width: 80%;
     padding: 40px;
     margin-left: auto;
@@ -112,10 +112,17 @@ section p {
     text-align: justify;
 }
 
-.code {
+section .lado {
+    display: inline-block;
+}
+
+section .code {
     font-family: kodemono;
     background-color: black;
     padding: 5px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 5px;
 }
 
 
