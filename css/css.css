@@ -178,6 +178,18 @@ section .sumario {
     text-align: center;
 }
 
+section > a > img {
+    position: fixed;
+    border: 2px solid white;
+    background-color: #104268;
+    border-radius: 50%;
+    width: 75px;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 125px;
+}
+
+
 footer {
     display: flex;
     justify-content: space-between;
