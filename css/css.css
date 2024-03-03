@@ -194,4 +194,7 @@ footer {
     nav > input[type="checkbox"]:checked ~ ul {
         display: block;
     }
+    section {
+        width: 100%;
+    }
 }
