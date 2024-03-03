@@ -92,7 +92,7 @@ section {
     color: white;
     background-color: #5840afbb;
     width: 80%;
-    padding: 40px;
+    padding: 50px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 30px;
@@ -154,12 +154,9 @@ section .atajos {
     font-family: kodemono;
 }
 
-
-
-
-
-
-
+section {
+    margin-bottom: 80px;
+}
 
 footer {
     font-family: kodemono;
