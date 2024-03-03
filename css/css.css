@@ -146,7 +146,7 @@ section > ul {
     display: inline-block;
     position: relative;
     width: 45%;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 20px;
     padding: 20px;
 }
@@ -162,6 +162,20 @@ section .atajos {
 
 section {
     margin-bottom: 80px;
+}
+
+section .sumario {
+    border: 3px solid black;
+    width: 40%;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.sumario > h3 {
+    text-align: center;
 }
 
 footer {
