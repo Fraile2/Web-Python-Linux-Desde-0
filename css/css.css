@@ -98,6 +98,17 @@ section {
     border-radius: 30px;
 }
 
+section > div.cont {
+    display: flex;
+    row-gap: 10px;
+    flex-flow: row wrap;
+}
+
+section > div.cont > div {
+    flex: 1;
+    padding: 10px;
+}
+
 section a {
     color: #ffdf4d;
     font-weight: bold;
@@ -119,13 +130,29 @@ section .lado {
 section .code {
     font-family: kodemono;
     background-color: black;
-    padding: 5px;
-    border-radius: 20px;
-    display: inline-block;
-    margin-right: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
 }
 
+section > ul {
+    display: inline-block;
+    position: relative;
+    width: 45%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
 
+section > .lado {
+    display: inline-block;
+    width: 54%;
+}
+
+section .atajos {
+    font-family: kodemono;
+}
 
 
 

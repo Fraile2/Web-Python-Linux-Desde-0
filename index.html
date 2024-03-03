@@ -23,7 +23,7 @@
     <section>
         <h2>Introducción</h2>
         <p>
-            En esta página aprenderemos a programar en <a href="https://www.python.org/downloads/">Python</a> desde el cero más absoluto, para ello 
+            En esta página aprenderemos a programar en <strong>Python</strong> desde el cero más absoluto, para ello 
             usaremos el IDE <a href="https://code.visualstudio.com">visual studio code</a> 
             en la distribución de GNU/Linux basada en Debian llamada <strong>Linux Mint 21</strong>. 
         </p>
@@ -39,11 +39,12 @@
             inglés.
         </p>
         <p>
-            Es un lenguaje interpretado, eso quiere decir que no necesita de compilación, por eso también se usa como lenguaje de scripts.
+            Es un lenguaje interpretado, eso quiere decir que no necesita de compilación, por eso también
+            se usa como lenguaje de scripts.
         </p>
         <p>
-            Además tiene un plus y es que es un lenguaje que hace uso de el paradigma <abbr title="Programación Orientada a Objetos">POO</abbr>
-
+            También tiene un plus y es que es un lenguaje que hace uso de el paradigma <abbr title="Programación Orientada a Objetos">POO</abbr>
+            lo que lo convierte en un lenguaje en el cual todo es un objeto, cosa que veremos en el tercer trimestre detenidamente.
         </p>
         <h2>Instalación de python</h2>
         <p>
@@ -52,7 +53,74 @@
         <p class="code">
             $ sudo apt install python3 python3-pip
         </p>
-        <p class="lado">Así es como se descarga python en todas las distribucione basadas en Debian, a continuación, procederé.</p>
+        <p>
+            Así es como se descarga python en todas las distribuciones basadas en Debian, a continuación, procederé.
+            a explicar que son estos dos paquetes.
+        </p>
+        <div class="cont">
+            <div>
+                <ul>
+                    <li><strong>python3</strong>: Este paquete contiene el intérprete de la última versión de Python versión 3.</li>
+                    <li><strong>python3-pip</strong>: Este paquete contiene el gestor de paquetes y librerías de la última version de Python3.</li>
+                </ul>
+            </div>
+            <div>
+                <p>
+                    Con esto, ya habremos instalado, tanto la última versión estable del intérprete
+                    como el gestor de paquetes y librerías de Python3. Ahora veamos como instalar el
+                    <abbr title="Entorno de desarrollo integrado">IDE</abbr> que vamos a usar para 
+                    programar en este lenguaje tan polivalente.
+                </p>
+            </div>
+        </div>
+        <h2>Descarga e instalación de Visual Studio Code</h2>
+        <p>
+            Abriremos el primer enlace que os he dejado, y tras ello daremos clic en el botón
+            que pone <strong>.deb</strong>. De esta forma descargaremos el paquete debian de
+            visual studio code.
+        </p>
+        <p>
+            Ahora para instalarlo, abriremos una terminal, nos situaremos dónde hemos descargado el
+            paquete deb y ejecutaremos los siguientes dos comandos:
+        </p>
+        <div class="cont">
+            <div>
+                <p class="code">
+                    1.- $ mv code_<em>tabulador</em>.deb code.deb
+                </p>
+                <p class="code">
+                    2.- $ sudo dpkg -i code.deb
+                </p>
+            </div>
+            <div>
+                <p>
+                    En el primer comando con <em>tabulador</em> me refiero a que hay que escribir <em>code_</em>
+                    y darle a la tecla tabulador. Esta tecla se situa arriba del Bloq Mayus. Con este
+                    comando, renombraremos el paquete debian para que nos sea mucho más fácil y no nos
+                    equivoquemos al instalar dichos paquetes.
+                </p>
+            </div>
+        </div>
+        <p>
+            El segundo comando, simplemente es para instalar el paquete debian. Hay que introducir la
+            contraseña del usuario que estéis usando.
+        </p>
+        <h2>Extensiones necesarias y recomendadas para <abbr title="visual studio code">VSC</abbr>.</h2>
+        <p>
+            Una vez hayamos instalado visual studio code, hay que instalar las correspondientes 
+            extensiones de python.
+        </p>
+        <p>
+            Abriremos VSC y presionaremos las siguientes tres teclas en órden:
+            <span class="atajos">Ctrl Shift X</span> y una vez hecho esto se nos abrirá la pestaña 
+            de extensiones. Arriba habrá un icono de una lupa y buscaremos e instalaremos primero
+            <strong>Python</strong> después <strong>Pylance</strong> y opcionalmente <strong>Error Lens</strong>.
+        </p>
+        <p>
+            Adicionalmente, siempre podéis instalar la extensión <strong>Rainbow indent</strong> para controlar
+            mejor el tema de la identación del código (es decir, cuantas tabulaciones metemos). Dentro de poco, 
+            (PRIMER TRIMESTRE) veremos la importancia que tiene esta extensión a la hora de programar en Python.
+        </p>
     </section>
     <footer>
         Hecho por: Alejandro Fraile del Olmo.
