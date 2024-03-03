@@ -22,7 +22,6 @@
     background-color: #ffe468;
 } */
 
-
 html {
     color: white;
     background-color: black;
@@ -55,7 +54,7 @@ nav input[type="checkbox"] {
 }
 
 nav > label > img {
-    width: 67px;
+    width: 5%;
     display: none;
 }
 
@@ -166,27 +165,33 @@ section {
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
     font-family: kodemono;
-    background-color: black;
+    background-color: rgb(32, 32, 32);
     padding: 20px;
     text-align: right;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    border-top: 4px solid #ffe468;
-    color:#ffe468;
+    border-top: 4px solid #00b7ff;
+    color:#ffffff;
 }
 
+footer a {
+    color: #00b7ff;
+}
 
 @media only screen and (max-width:1075px) {
     nav > ul {
         display: none;
+        overflow: hidden;
+        width: 100%;
     }
     nav > label.menu2 {
-        display: inline-block;
-        margin-left: auto;
-        margin-right: auto;
+        display: inline;
+        float: left;
     }
     nav > label.menu2 > img {
         display: inline-block;
